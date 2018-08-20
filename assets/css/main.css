@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 14, 2018, 3:06:21 PM
+    Author     : JagritVishwa
+*/
+
+#nav{
+     color:black;
+}
+
+body,h1,h2,h3,h4,h5,h6,a {font-family: "Lato", sans-serif;}
+body, html {
+    height: 100%;
+    color: #777;
+    /*  color:white;*/
+    line-height: 1.8;
+}
+
+/* Create a Parallax Effect */
+.bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* First image (Logo. Full height) */
+.bgimg-1 {
+    background-image: url("../w3images/india.jpg");
+    background-color: #cccccc;
+    min-height: 100%;
+}
+
+/* Second image (Gallery) */
+.bgimg-2 {
+    background-image: url("../w3images/NGOimg.jpg");
+    background-color: #cccccc;
+    min-height: 400px;
+}
+
+/* Third image (Contact) */
+.bgimg-3 {
+    background-image: url("../w3images/12.jpg");
+    background-color: #cccccc;
+    min-height: 400px;
+}
+
+.w3-wide {letter-spacing: 10px;}
+.w3-hover-opacity {cursor: pointer;}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3{
+        background-attachment: scroll;
+    }
+}
