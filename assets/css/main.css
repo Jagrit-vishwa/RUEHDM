@@ -44,7 +44,7 @@ body, html {
 
 /* Third image (Contact) */
 .bgimg-3 {
-    background-image: url("../w3images/12.jpg");
+    background-image: url("../w3images/contact_bg.jpg");
     background-color: #cccccc;
     min-height: 400px;
 }
