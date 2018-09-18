@@ -21,7 +21,7 @@ body, html {
 }
 
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -37,7 +37,7 @@ body, html {
 
 /* Second image (Gallery) */
 .bgimg-2 {
-    background-image: url("../w3images/NGOimg.jpg");
+    background-image: url("../w3images/slide1.jpg");
     background-color: #cccccc;
     min-height: 400px;
 }
@@ -47,6 +47,20 @@ body, html {
     background-image: url("../w3images/12.jpg");
     background-color: #cccccc;
     min-height: 400px;
+}
+
+/* Fourth image (Service-Page LOGO. Full height) */
+.bgimg-4 {
+    background-image: url("../w3images/ngo-banner.jpg");
+    background-color: #cccccc;
+    min-height: 100%;
+}
+
+/* Fifth image (Gallery-Page LOGO. Full height) */
+.bgimg-5 {
+    background-image: url("../w3images/slide1.jpg");
+    background-color: #cccccc;
+    min-height: 100%;
 }
 
 .w3-wide {letter-spacing: 10px;}
